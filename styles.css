@@ -19,3 +19,27 @@ header #description {
     font-style: italic;
     margin-bottom: 1.875rem;
 }
+form {
+    width: 600px;
+    margin: 0 auto;
+    background-color: rgba(27, 27, 50, 0.8);
+    padding: 40px;
+}
+fieldset {
+    border: none;
+    padding: 0;
+}
+label {
+    display: block;
+    margin-bottom: 1.25rem;
+}
+input, textarea, select {
+    width: 100%;
+    min-height: 2em;
+    padding-left: 4px;
+}
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
