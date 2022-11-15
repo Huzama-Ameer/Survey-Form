@@ -39,9 +39,7 @@ label {
     display: block;
     margin-bottom: 1.25rem;
 }
-form label {
-    margin-top: 1.25rem;
-}
+
 p.inline{
     margin-bottom: unset;
 }
@@ -59,4 +57,13 @@ input, textarea, select {
     width: unset;
     margin: 0 0.5em 0 0;
     vertical-align: middle;
+}
+
+/************** Submit Button  ************/
+input[type="submit"] {
+    width: 100%;
+    margin: 1em auto;
+    font-size: 1.1rem;
+    color: #fff;
+    background-color: #37af65;
 }
